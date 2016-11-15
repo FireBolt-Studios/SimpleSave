@@ -1,64 +1,47 @@
 Basic (GUI)
 
-If your an inexperienced programmer the manager window
-provides a quick and easy way to create new data and
-add properties. The manager can only define int, float 
-and strings for your properties, however you can use 
-the manager while you get to grips with the advanced
-functions if you want to save more complex non 
-monobehaviour data.
+If your an inexperienced programmer the manager windowprovides a quick and easy way to 
+create new data and add properties. The manager can only define int, float and strings 
+for your properties, however you can use the manager while you get to grips with the 
+advanced functions if you want to save more complex non monobehaviour data.
 
-The manager window is comprised of three sections, data 
-list, property list and settings. The data list holds
-all your data classes they are the classes to be saved.
-The property list holds all the properties of the selected
-data in the data list. The settings area allows for the
-input of the root path of the saved data, the data type
-that is desired (binary,xml) and runtime options like
-automatic loads and saves. Also there are buttons to
-save or load a data item manually.
+The manager window is comprised of three sections, data list, property list and 
+settings. The data list holds all your data classes they are the classes to be saved.
+The property list holds all the properties of the selected data in the data list. 
+The settings area allows for the input of the root path of the saved data, the data 
+type that is desired (binary,xml) and runtime options like automatic loads and saves. 
+Also there are buttons to save or load a data item manually.
 
-You can add a new data type by clicking the plus button
-at the top of the data list, you will be prompted to 
-enter a new name for the data but can leave it as the 
-default data name. To edit a data item you can click on
-the pencil button next to the plus button. To remove data
-you can click on the minus button at the top on the other
-side of the plus button, this removes the currently 
-selected data item and selects the previous data item
+You can add a new data type by clicking the plus button at the top of the data list, 
+you will be prompted to enter a new name for the data but can leave it as the default 
+data name. To edit a data item you can click on the pencil button next to the plus button. 
+To remove data you can click on the minus button at the top on the other side of the plus 
+button, this removes the currently selected data item and selects the previous data item
 in the list.
 
-You can add a new property to the selected data by clicking
-on the plus button at the top of the properties list, you
-will be prompted to enter a new name for the data and a default
-value. To edit the selected property you can click on the pencil
-button next to the plus button. To remove a property click on 
-the minus button on the other side of the plus button. the
-text you enter into the value of a property is dynamic, so
-if you enter letters and characers, the GetProperty method returns
-a string variable, if a whole number is entered returns a int
-variable and if a decimal number is entered returns a float.
+You can add a new property to the selected data by clicking on the plus button at the top 
+of the properties list, you will be prompted to enter a new name for the data and a default
+value. To edit the selected property you can click on the pencil button next to the plus 
+button. To remove a property click on the minus button on the other side of the plus button. 
+the text you enter into the value of a property is dynamic, so if you enter letters and 
+characers, the GetProperty method returns a string variable, if a whole number is entered 
+returns a int variable and if a decimal number is entered returns a float.
 
-To set the root folder where the your data is saved click the 
-button next to the root option on the right of the window.
-You can save as binary or xml, select the type to want from
-the drop down menu next to the type option. Binary file types
-provide a file that is readable only by a computer. XML file
-types however are readable and can be updated using most text
+To set the root folder where the your data is saved click the button next to the root option 
+on the right of the window. You can save as binary or xml, select the type to want from
+the drop down menu next to the type option. Binary file types provide a file that is readable 
+only by a computer. XML file types however are readable and can be updated using most text
 editing software. 
 
-The save and load buttons are to manually serialize data and
-their properties. Unlike the save on quit and run on load 
-options which load and save all the data within the data list
-these buttons allow you to save and load data individually.
-You can achieve the same result at runtime using the correct
-commands through script.
+The save and load buttons are to manually serialize data and their properties. Unlike the save 
+on quit and run on load options which load and save all the data within the data list these 
+buttons allow you to save and load data individually. You can achieve the same result at 
+runtime using the correct commands through script.
 
-To be able to automatically save and load on application run and
-quit use these options. Load on run enables your build to 
-automatically load the entire data list into the game when
-launced. Save on quit enables your build to save the entire data 
-list and its changes when the application is exited.
+To be able to automatically save and load on application run and quit use these options. Load 
+on run enables your build to automatically load the entire data list into the game when
+launced. Save on quit enables your build to save the entire data list and its changes when 
+the application is exited.
 
 
 

@@ -1,1 +1,37 @@
 Reference
+
+The following methods are used with the data and property classes.
+
+Data newData = DataUtility.CreateData(string dataName);
+ - Creates and returns a new data object with the name specified (Returns new data).
+ 
+Property newProperty = DataUtility.CreateProperty(string propertyName);
+ - Creates and returns a new property with the name specified.
+ 
+Data existingData = DataUtility.GetData(string dataName);
+ - Searches data list for data of specified name and returns.
+ 
+int newInt = (int)DataUtility.GetProperty(string dataName,string propertyName);
+float newFloat = (float)DataUtility.GetProperty(string dataName,string propertyName);
+string newString = (string)DataUtility.GetProperty(string dataName,string propertyName);
+ - Searches all data in data list and returns the value of the property of name specified,
+   returs object, so cast to the primitive type you want (int, float, string).
+   
+DataUtility.SetProperty(string dataName,string propertyName,string value);
+ - Searches all properties and sets the property of name's value to specified value.
+   (Give int and float as string).
+ 
+The following methods are called from Serialize class, and be used without any other
+class or part of this package. 
+ 
+Serialize.Save(string path, Class newClass);
+ - Saves the given class to the path specified as binary file type.
+ 
+class loadedClass = Serialize.Load<Class>(string Path);
+ - Loads a binary file at specified path and cast to its internal class type. (Class must not inherit monobehaviour)
+ 
+Serialize.SaveXML(string path, Class newClass);
+ - Saves the given class to the path specified as xml file type.
+ 
+class loadedClass = Serialize.LoadXML<Class>(string Path);
+ - Loads a xml file at specified path and cast to its internal class type. (Class must not inherit monobehaviour)

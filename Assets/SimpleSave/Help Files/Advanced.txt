@@ -1,1 +1,32 @@
-Advanced
+Advanced (Script)
+
+Simple Save is built around a simple set methods that can serialize and deserialize
+.net classes. Theses methods can load and save bianry and xml files, they are static
+also allowing you to call them from any monobehviour script without reference while
+using SimpleSave.Core in your scripts. 
+
+The database, settings and options provided with this package are optional and are
+designed for novice scripters to interface this system. The file settings and runtime
+options are not required since you can write your own systems to work alongside this. 
+
+All of Simple Save scripts are kept within its own namespace, with runtime classes 
+extending to core and editor scripts to editor. Example, if you want to access the 
+GetProperty method, you would include "Using SimpleSave.Core" in your script and
+call the method using DataUtility.GetProperty() where DataUtility is the script that
+contains multiple static methods for getting and setting properties and data.
+
+There is already a data and property class included with this package, but I will
+remind you that this can save and load any .net classes that are serializable.
+The data class contains two fields, a string for the datas name and list of properties,
+another custom class that contains two fields, a string for the propery name and an 
+object field for primitive data types like int, float and string. Data is stored within 
+a list in the database. 
+
+If your confident in your sctipting ability you can cut away everything in this package
+and use just the Serialize class in your projects, this is the back bone and primary
+feature of simple save. With the serialize class you can save your non-mono classes 
+directly and easily. Look up the commands for doing this in the script reference within
+this help window.
+
+
+ 
