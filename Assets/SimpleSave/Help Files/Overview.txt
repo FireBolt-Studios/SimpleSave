@@ -1,0 +1,23 @@
+Overview
+
+Simple Save is an editor extenstion and runtime system 
+that allows users to create data sets within a database 
+and save/load them as binary or xml to and from a custom 
+path in editor or at runtime. 
+
+Simple Save is designed to be light weight and non 
+instrusive, thus is very basic in its application and use. 
+The system can save (serialize) non monobehaviour classes, 
+when used with the Simple Save manager window the user can 
+only assign int, float and strings to properties, but those 
+who have the confidence can access the functions directly 
+through code to save and load more complex non monobehaviour 
+classes that contain arrays and serializable .net objects. 
+
+Simple Save is perfect for saving data like player score, 
+level and experience, or storing references to an internal 
+asset database. You can even create an entire database of 
+items with their statistics that you can save as xml and 
+update outside of runtime and load back in to update changes, 
+when used in conjuction with asset bundles could provide a 
+simple solution to patching your game at build.

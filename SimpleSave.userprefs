@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SimpleSave\Core\DataUtility.cs">
+    <Files>
+      <File FileName="Assets\SimpleSave\Editor\SimpleSaveHelp.cs" Line="80" Column="56" />
+      <File FileName="Assets\SimpleSave\Editor\SimpleSaveManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\SimpleSave\Core\DataUtility.cs" Line="1" Column="1" />
+      <File FileName="Assets\SimpleSave\Core\Database.cs" Line="1" Column="1" />
+      <File FileName="Assets\SimpleSave\Core\Serialize.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
